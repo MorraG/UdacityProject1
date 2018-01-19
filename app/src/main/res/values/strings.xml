@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Project-1 Udacity Google Scholarship</string>
+    <string name="subtitle">A New Prospective on Education</string>
+    <string name="address1">Udacity</string>
+    <string name="address2">2465 Latham St</string>
+    <string name="address3">Mountain View, CA 94043</string>
+    <string name="address4">650-555-5555</string>
+</resources>

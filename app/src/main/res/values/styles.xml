@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- Base application theme. -->
+
+    <style name="UdacityTextStyle"  >
+        <item name="android:textColor">#212121</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:fontFamily">Casual</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+    <style name="UdacityAddressStyle">
+        <item name="android:textColor">#616161</item>
+        <item name="android:fontFamily">cursive</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+</resources>

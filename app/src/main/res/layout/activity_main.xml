@@ -1,0 +1,116 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundlayout"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.8">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:background="@color/backgroundlayout"
+                android:src="@drawable/udacity1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@color/backgroundlayout"
+                android:paddingTop="10dp"
+                android:style="@style/UdacityTextStyle"
+                android:text="@string/subtitle" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="4"
+                android:scaleType="centerCrop"
+                android:src="@drawable/prospective1new" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/backgroundlayout"
+        android:backgroundTint="@color/backgroundlayout"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="80dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="80dp"
+            android:layout_weight="0.90"
+            android:background="@color/backgroundlayout"
+            android:src="@drawable/pointer" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:background="@color/backgroundlayout"
+            android:orientation="vertical"
+            android:paddingRight="160dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/backgroundlayout"
+                android:fontFamily="casual"
+                android:paddingTop="25dp"
+                android:text="@string/address1"
+                android:textAlignment="center"
+                android:textSize="45sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2.5"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/backgroundlayout"
+                    android:paddingTop="20dp"
+                    android:style="@style/UdacityAddressStyle"
+                    android:text="@string/address2" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1.2"
+                    android:backgroundTint="@color/backgroundlayout"
+                    android:style="@style/UdacityAddressStyle"
+                    android:text="@string/address3" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@color/backgroundlayout"
+                    android:paddingTop="10sp"
+                    android:style="@style/UdacityAddressStyle"
+                    android:text="@string/address4" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
